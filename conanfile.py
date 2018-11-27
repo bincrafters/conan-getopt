@@ -31,6 +31,9 @@ class GetOptConan(ConanFile):
         if self.settings.os == 'Windows':
             del self.options.fPIC
 
+    def configure(self):
+        del self.settings.compiler.libcxx
+
     def source(self):
         for name in ["getopt.c", "getopt.h"]:
             tools.download("https://gist.githubusercontent.com/ashelly/7776712/raw/"
