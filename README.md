@@ -1,7 +1,7 @@
 
 | Bintray | Windows | Linux & macOS |
 |:--------:|:---------:|:-----------------:|
-|BINTRAY_BADGE_URL|APPVEYOR_BADGE_URL|TRAVIS_BADGE_URL|
+|[![Download](https://api.bintray.com/packages/bincrafters/public-conan/getopt%3Abincrafters/images/download.svg) ](https://bintray.com/bincrafters/public-conan/getopt%3Abincrafters/_latestVersion)|[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/conan-getopt?svg=true)](https://ci.appveyor.com/project/BinCrafters/conan-getopt)|[![Build Status](https://travis-ci.org/bincrafters/conan-getopt.svg)](https://travis-ci.org/bincrafters/conan-getopt)|
 
 
 Bincrafters packages can be found in the following public Conan repository:
