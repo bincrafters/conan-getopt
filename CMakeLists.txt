@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 2.8.12)
-project(getopt)
+project(getopt C)
 
 include(conanbuildinfo.cmake)
 conan_basic_setup()
 
-file(GLOB SOURCES getopt.c)
-file(GLOB HEADERS getopt.h)
+file(GLOB SOURCES source_subfolder/getopt.c)
+file(GLOB HEADERS source_subfolder/getopt.h)
 
 add_library(${PROJECT_NAME} ${SOURCES} ${HEADERS})
 set_target_properties(${PROJECT_NAME} PROPERTIES
