@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 from conans import ConanFile, tools
 from conans.errors import ConanInvalidConfiguration
 import os
@@ -13,7 +10,6 @@ class GetOptConan(ConanFile):
     topics = ("conan", "getopt", "command line", "options")
     url = "https://github.com/bincrafters/conan-getopt"
     homepage = "https://github.com/skandhurkat/Getopt-for-Visual-Studio"
-    author = "Bincrafters <bincrafters@gmail.com>"
     license = "MIT", "BSD-2-Clause"
     exports = ["LICENSE.md"]
     no_copy_source = True
